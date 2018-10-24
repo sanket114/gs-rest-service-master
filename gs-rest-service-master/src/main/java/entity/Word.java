@@ -2,31 +2,31 @@ package entity;
 
 public class Word {
 private String word;
-private boolean palindrom;
-private boolean anagramofpalindrom;
+private boolean palindrome;
+private boolean anagramOfPalindrome;
 public String getWord() {
 	return word;
 }
 public void setWord(String word) {
 	this.word = word;
 }
-public boolean isPalindrom() {
-	return palindrom;
+public boolean isPalindrome() {
+	return palindrome;
 }
-public void setPalindrom(boolean palindrom) {
-	this.palindrom = palindrom;
+public void setPalindrome(boolean palindrome) {
+	this.palindrome = palindrome;
 }
-public boolean isAnagramofpalindrom() {
-	return anagramofpalindrom;
+public boolean isanagramOfPalindrome() {
+	return anagramOfPalindrome;
 }
-public void setAnagramofpalindrom(boolean anagramofpalindrom) {
-	this.anagramofpalindrom = anagramofpalindrom;
+public void setAnagramOfPalindrome(boolean anagramOfPalindrome) {
+	this.anagramOfPalindrome = anagramOfPalindrome;
 }
-public Word(String word, boolean palindrom, boolean anagramofpalindrom) {
+public Word(String word, boolean palindrome, boolean anagramOfPalindrome) {
 	super();
 	this.word = word;
-	this.palindrom = palindrom;
-	this.anagramofpalindrom = anagramofpalindrom;
+	this.palindrome = palindrome;
+	this.anagramOfPalindrome = anagramOfPalindrome;
 }
 public Word() {
 	super();
@@ -34,7 +34,7 @@ public Word() {
 }
 @Override
 public String toString() {
-	return "Word [word=" + word + ", palindrom=" + palindrom + ", anagramofpalindrom=" + anagramofpalindrom + "]";
+	return "Word [word=" + word + ", palindrome=" + palindrome + ", anagramOfPalindrome=" + anagramOfPalindrome + "]";
 }
 
 

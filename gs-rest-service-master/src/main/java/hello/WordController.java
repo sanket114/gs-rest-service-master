@@ -15,8 +15,8 @@ public Word show(@PathVariable(value = "word" )String s ) {
 System.out.println(s);
 	Word w=new Word();
 	w.setWord(s);
-	w.setPalindrom(palindrom(s));
-	w.setAnagramofpalindrom(anagramofpalindrom(s));
+	w.setPalindrome(palindrom(s));
+	w.setAnagramOfPalindrome(anagramofpalindrom(s));
 	return w;
 	
 }
